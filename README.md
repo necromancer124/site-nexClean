@@ -1,16 +1,25 @@
-# Project site in html+css
+# Project Site in HTML + CSS
+
 ---
 
 ## Overview
 
-Project NexClean is a [short description of your project—e.g., web application, interactive website, or software tool] designed to [main purpose or functionality].  
-This project demonstrates [key skills used, e.g., HTML, CSS, JavaScript, Git, responsive design].
+This is an interactive website designed to explain who **NexClean** is as a company.  
+This project demonstrates our teamwork and current knowledge in **HTML** and **CSS**.
 
 ---
 
 ## Features
 
-- [Feature 1: e.g., QR code scanning page]  
-- [Feature 2: e.g., Sticky header navigation]  
-- [Feature 3: e.g., Parallax hero section with background image]  
-- [Feature 4: e.g., Responsive layout for multiple devices]  
+- QR code scanning page  
+- Sticky header navigation  
+- Parallax hero section with background image  
+- Responsive layout for multiple devices  
+
+---
+
+## Installation / Usage
+
+1. Clone this repository:  
+```bash
+git clone https://github.com/USERNAME/REPOSITORY.git
