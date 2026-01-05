@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .card {
     border: 1px solid black;
     border-radius: 10px;
@@ -10,6 +17,25 @@
     margin: 50px auto;
     box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* optional shadow for modern look */
     background-color: #fff; /* optional background */
+}
+header {
+    position: fixed;
+    top: 0;                 
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 50px; /* уменьшили вертикальные отступы */
+    background-color: white;
+    color: black;
+    font-style: normal;
+    height: 40px; /* length of the header Y */
+    border-bottom: 2px solid black;
+}
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; /*gap between the text inside */
 }
 .bg {
     position: fixed;
