@@ -4,12 +4,16 @@
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    padding-bottom: 24px;
     border: 2px solid black;
 }
 
@@ -82,4 +86,14 @@ a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+.copyright{
+  margin-top: auto;
+  width: 100%;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 14px 10px;
+  box-sizing: border-box;
 }
