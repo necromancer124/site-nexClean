@@ -1,36 +1,28 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="he" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/ContactUs.css">
-    <title>ContactUs</title>
+    <title>Document</title>
 </head>
 <body>
-      <header>
-        <nav class="header-nav">
-            <a href="index.html">מי אנחנו</a>
-            <p>|</p>
-            <a href="downloads.html">להורדה</a>
-        </nav>
-    </header>
-    <main class="content">
-  <div class="card">
-    <img src="images/nexclean_with_borders.png" alt="Profile image" class="profile-img">
-    <h1 class="title">Contact Us</h1>
-    <p class="quote">.See it. Pick it. Check out</p>
-    <img src="images/qr.png" alt="QRcode" class="QRcode">
-    <br>
-    <a href="https://wa.me/9720507769694" class="btn-whatsapp" target="_blank">WhatsApp</a>
-  </div>
-</main>
-<footer class="copyright">
-  Copyright © 2025<br>
-  All rights reserved.<br><br>
-  This project and its contents are the property of <strong>nexClean</strong>.<br>
-  No part of this project may be used, copied, modified, or distributed<br>
-  without explicit written permission from the owner.
-</footer>
-    
+    <div class="card">
+        <img
+            src="images/nexclean_with_borders.png"
+            alt="Profile image"
+            class="profile-img"
+        >
+        <p class="quote">Seed. Picked. Check out.</p>
+        <form action="https://wa.me/972549922316" target="_blank" class="contact-form">
+            <h1>Contact Us</h1>
+            <p>Fill in the details in the box, and click the button to send a message on WhatsApp.</p>
+            <h3 style="align-self: flex-start;">Message on WhatsApp</h3>
+            <textarea name="text" id="message" class="message" placeholder="Enter your message..." style="width:85%; resize: vertical; max-height: 200px;"></textarea>
+            <button class="btn-whatsapp">Send Message on WhatsApp</button>
+        </form>
+   
+
+    </div>
 </body>
 </html>
