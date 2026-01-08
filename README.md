@@ -17,9 +17,3 @@ This project demonstrates our teamwork and current knowledge in **HTML** and **C
 - Responsive layout for multiple devices  
 
 ---
-
-## Installation / Usage
-
-1. Clone this repository:  
-```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
