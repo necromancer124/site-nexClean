@@ -24,25 +24,8 @@ body{
     margin-top: 90px; 
  margin-bottom: 30px;
 }
-header {
-    position: fixed;
-    top: 0;                 
-    width: 100%;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 50px; /* уменьшили вертикальные отступы */
-    background-color: white;
-    color: black;
-    font-style: normal;
-    height: 40px; /* length of the header Y */
-    border-bottom: 2px solid black;
-}
-.header-nav {
-    display: flex;
-    flex-direction: row;
-    gap: 10px; /*gap between the text inside */
-}
+
+
 .bg {
     position: fixed;
     top: 0;

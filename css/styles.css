@@ -1,0 +1,19 @@
+header {
+    position: fixed;
+    top: 0;                 
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 50px 10px 10px; /* уменьшили вертикальные отступы */
+    background-color: white;
+    color: black;
+    font-style: normal;
+    border-bottom: 2px solid black;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
