@@ -4,11 +4,7 @@
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+
 .card {
     border: 1px solid black;
     border-radius: 10px;
@@ -51,14 +47,4 @@ h1{
     font-size: 16px;
     color: purple;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-}
-.copyright{
-  margin-top: auto;
-  width: 100%;
-  background: black;
-  color: white;
-  text-align: center;
-  font-size: 12px;
-  padding: 14px 10px;
-  box-sizing: border-box;
 }
